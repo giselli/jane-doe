@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario</title>
+    <link href="css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <h1>JANE DOE</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="formulario.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+      <div class="alinhados">
+        <form name="formulario-contato" method="POST" netlify>
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu email">
+            </p>
+            <p>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" cols="20" rows="2" id="mensagem"
+                    placeholder="Dgite a sua mensagem"></textarea>
+            </p>
+            <p id="quiz">
+                <label for="find">How did you found Jane's music?</label>
+            <ul>
+                <li><input type="radio" class="find" name="find" value="Instagram"> Instagram</input></li>
+                <li><input type="radio" class="find" name="find" value="Facebook"> Facebook</input></li>
+                <li><input type="radio" class="find" name="find" value="Youtube"> Youtube</input></li><br>
+                <li><input type="checkbox" class="find" name="find" value=""> Do you want to subscribe to our
+                    newsletter?</li>
+            </ul>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" class="btn-submit">
+            </p>
+        </form>
+        <div class="local">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14624.191635152843!2d-46.675348!3d-23.6026147!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x739f0ddb0439cf94!2sDigital%20House%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1605365699559!5m2!1spt-BR!2sbr"
+                width="450" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+    
+    <section class="contact-section">
+        <section class="management">
+            <p id="contactname">MANAGEMENT | Karen Blanche</p>
+            <p id="info">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+            <p id="info">phone: <a href="tel:123-456-7890">123-456-7890</a></p>
+            </p>
+        </section>
+        <section class="booking">
+            <p id="contactname">BOOKING | Daniel Ku</p>
+            <p id="info">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+            <p id="info">phone: <a href="tel:123-456-7890">123-456-7890</a></p>
+            </p>
+        </section>
+        <section class="label">
+            <p id="contactname">LABEL | Wix Records, Jake Coldham</p>
+            <p id="info">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+            <p id="info">phone: <a href="tel:123-456-7890">123-456-7890</a></p>
+            </p>
+        </section>
+        <section class="PR">
+            <p id="contactname">PR | That Girl Pr, Sarah Brookstone</p>
+            <p id="info">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+            <p id="info">phone: <a href="tel:123-456-7890">123-456-7890</a></p>
+            </p>
+        </section>
+    </section>
+</div>
+
+
+    <footer>Copyright - Jane Doe</footer>
+
+</body>
+
+</html>
