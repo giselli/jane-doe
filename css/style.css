@@ -18,24 +18,20 @@ header {
     background-color: white;
 }
 
-ul {
+.menu {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-ul li {
-    /* li de dentro do ul*/
+.menu li {
     display: inline-block;
-    /* um do lado do outro*/
     padding: 10px 20px;
-    /*sentido horário*/
 }
 
 .banner-section img {
     width: 100%;
     padding: 0;
-    /*margin-top:-100px;*/
     object-fit: cover;
 }
 
@@ -44,11 +40,6 @@ footer {
     text-align: center;
 }
 
-form{
-    width: 100%;
-    margin: 180px 10px 10px 50px;
-    /*object-fit: cover;*/
-}
 .btn-submit {
     padding: 10px 20px;
     background: #ffffff;
@@ -56,29 +47,22 @@ form{
     cursor: pointer;
 } 
 
-.btn-submit:hover {
-    border-color: red;
-    color: red;
+.alinhados {
+    display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 100px;
 }
 
-input:focus {
-    outline-color: blue;
+.formulario-contato{
+    float: left;
 }
 
-textarea:focus {
-    outline-color: blue;
+.map{
+    float: left;
 }
 
-/*verificar*/
-
-
-#quiz{
-    justify-content: left;
-    padding: 0;
-    margin: 0;
-}
-
-.contact-section {
+.contatos {
     margin: 30px;
     padding: 20px;
     padding-top: 50px;
@@ -99,45 +83,66 @@ textarea:focus {
 .management {
     border-bottom: 1px solid gray;
     border-top: 1px solid gray;
+    margin-left: 480px;
+    margin-right: 400px;
 }
 
 .booking {
     border-bottom: 1px solid gray;
+    margin-left: 480px;
+    margin-right: 400px;
 }
 
 .label {
     border-bottom: 1px solid gray;
+    margin-left: 480px;
+    margin-right: 400px;
 }
 
+.pr{
+    margin-left: 480px;
+    margin-right: 400px;
+}
 .contact-section a {
     color: blue;
     text-decoration: underline;
     float: left;
 }
 
-main {
-    margin-top: 100px;
-    padding-left: 100px;
-    display: inline-block;
+.photo{
+    width: 30%
+   
 }
 
-
-.local {
-    margin-top: 40px;
-    margin-left: 80px;
+.frases{
+margin-top: 200px;
+/*margin-left: 100px;*/
 }
 
-input {
-    width: 450px;
-    height: 20px;
+.enfase{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
 
-input.find {
-    width: 20px;
-    padding: 0;
-    margin: 0;
+.autor{
+    text-align: center;
+    font-size: small;
+    
 }
 
-.alinhados{
-align-items: flex-start;    
+.titulo-centro{
+    text-align: center;
+}
+
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.music-margem{
+    margin-left: 300px;
+    margin-top: 240px;
 }
